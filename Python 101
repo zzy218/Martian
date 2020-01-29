@@ -1,0 +1,17 @@
+# -- coding: utf-8 --
+
+from sys import argv
+
+script, Last_Name, First_Name = argv
+
+print "User's Name:", Last_Name, First_Name
+print "What is the date today?(YYYY/MM/DD)", D = raw_input ()
+
+Savings = raw_input ("How much savings do you have now?")
+Monthly_income= raw_input ("How much do you earn each month?")
+Monthly_expenses= raw_input ("How much do you spend each month?")
+A = int(Monthly_income) - int(Monthly_expenses)
+B = int (Savings)
+Savings_2021 = B + 11 * A
+
+print "You will have", Savings_2021,"RMB savings by Jan.2021"
